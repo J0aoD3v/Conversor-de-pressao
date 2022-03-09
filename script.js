@@ -7,7 +7,7 @@ function ConverterEmPsi() {
   console.log(valorEmPsi);
 
   var elementoValorConvertido = document.getElementById("valorConvertido");
-  var valorConvertido = "Equivale a " + valorEmPsi.toFixed(2) + " Psi";
+  var valorConvertido = "Equivale a " + valorEmPsi.toFixed(0) + " Psi";
   elementoValorConvertido.innerHTML = valorConvertido;
 }
 
