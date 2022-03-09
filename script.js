@@ -7,7 +7,7 @@ function ConverterEmPsi() {
   console.log(valorEmPsi);
 
   var elementoValorConvertido = document.getElementById("valorConvertido");
-  var valorConvertido = "Equivale a " + valorEmPsi.toFixed(0) + " Psi";
+  var valorConvertido = "Equivale a " + valorEmPsi + " Psi";
   elementoValorConvertido.innerHTML = valorConvertido;
 }
 
@@ -20,7 +20,7 @@ function ConverterEmKgM2() {
   console.log(valorEmKgM2);
 
   var elementoValorConvertido = document.getElementById("valorConvertido");
-  var valorConvertido = "Equivale a " + valorEmKgM2.toFixed(2) + " Kg/m2";
+  var valorConvertido = "Equivale a " + valorEmKgM2 + " Kg/m2";
   elementoValorConvertido.innerHTML = valorConvertido;
 }
 
@@ -33,6 +33,6 @@ function ConverterEmBar() {
   console.log(valorEmBar);
 
   var elementoValorConvertido = document.getElementById("valorConvertido");
-  var valorConvertido = "Equivale a " + valorEmBar.toFixed(2) + " Bar";
+  var valorConvertido = "Equivale a " + valorEmBar + " Bar";
   elementoValorConvertido.innerHTML = valorConvertido;
 }
